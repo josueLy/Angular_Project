@@ -6,7 +6,7 @@ import {Routes,RouterModule} from "@angular/router"
 import {EmpleadoComponent} from 'src/empleado/empleado.component';
 import { HomeComponent } from 'src/home/home.component';
 import { ContactoComponent } from 'src/contacto/contacto.component';
-import {CocheComponent} from 'src/coche/coche.component';
+import {CochesComponent} from 'src/coche/coche.component';
 
 const appRoutes : Routes = [
 
@@ -15,7 +15,7 @@ const appRoutes : Routes = [
     {path: 'home', component: HomeComponent},
     {path: 'contacto/:pagina', component : ContactoComponent},
     {path: 'contacto', component : ContactoComponent},   
-    {path: 'coche', component : CocheComponent},   
+    {path: 'coche', component : CochesComponent},   
     {path: '**', component: HomeComponent}
 ];
 

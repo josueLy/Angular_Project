@@ -7,7 +7,7 @@ import {routing, appRoutingProviders} from './app.routing'
 import { HomeComponent } from 'src/home/home.component';
 import { ContactoComponent } from 'src/contacto/contacto.component';
 import {ConversorPipe} from 'src//pipes/conversor.pipe';
-import { CocheComponent } from 'src/coche/coche.component';
+import { CochesComponent } from 'src/coche/coche.component';
 
 
 @NgModule({
@@ -16,7 +16,7 @@ import { CocheComponent } from 'src/coche/coche.component';
     EmpleadoComponent,
     HomeComponent,
     ContactoComponent,
-    CocheComponent,
+    CochesComponent,
     ConversorPipe
 
   ],
